@@ -151,7 +151,7 @@ export async function fetchAPI(endpoint, options = {}) {
 export const authAPI = {
   signup: async (userData) => {
     return fetchAPI("/users/signup", {
-      credentials: "include",
+      // credentials: "include",
       method: "POST",
       body: JSON.stringify(userData),
     });
