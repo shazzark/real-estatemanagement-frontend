@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { User, Mail, Key, LogOut, ArrowLeft } from "lucide-react";
 import Navbar from "../_components/navbar";
+import LoadingIndicator from "../_components/_ui/loadingIndicator";
 
 // import Navbar from "../components/Navbar"; // <-- Uncomment and import your Navbar here
 

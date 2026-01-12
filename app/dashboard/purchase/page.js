@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
-import { useAuth } from "../../hooks/useAuth3";
+import { useAuth } from "../../hooks/useAuth";
 import { useRouter } from "next/navigation";
 import { fetchAPI } from "../../_lib/api";
-import PayNowButton from "../../_components/_ui/paystackButton";
+import PayNowButton from "../../_components/_ui/paynowButton";
 import {
   DollarSign,
   CheckCircle,
