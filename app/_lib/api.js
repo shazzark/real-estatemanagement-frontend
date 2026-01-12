@@ -102,6 +102,7 @@ export async function fetchAPI(endpoint, options = {}) {
 
   // DON'T auto-add token - let each call handle it
   const fetchOptions = {
+    credentials: "include",
     headers: {
       "Content-Type": "application/json",
       // ✅ Add token to ALL requests except auth endpoints
