@@ -42,7 +42,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <div className="text-2xl sm:text-3xl font-serif font-bold text-foreground tracking-tight transition-all duration-300 group-hover:text-primary">
-              Luxe
+              Luxe Estates
             </div>
             <div className="text-2xl sm:text-3xl font-serif font-bold text-primary ml-1 tracking-tight">
               Estates
